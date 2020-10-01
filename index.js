@@ -52,3 +52,9 @@ function swapCardsClass(direction) {
     nextRightCardEl.classList.add("prev-left-card");
   }
 }
+
+(() => {
+  window.addEventListener('resize', (e) => {
+    console.log('resize');
+  });
+})();
