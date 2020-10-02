@@ -206,7 +206,7 @@ main {
 .carousel {
     position: relative;
     width: 100%;
-    height: calc(85vh - var(--header-height));
+    height: 30rem;
     display: flex;
     justify-content: center;
 }
